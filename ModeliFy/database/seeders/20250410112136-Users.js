@@ -13,8 +13,8 @@ module.exports = {
       'users', [
         {
         id: 1,
-        name: 'Jose',
-        lastname: 'Ramos',
+        name: 'pepe',
+        lastname: 'pepe',
         email: 'user@gmail.com',
         password: hashedPassword,
         avatar: 'default.png',
