@@ -15,7 +15,7 @@ module.exports = {
         id: 1,
         name: 'pepe',
         lastname: 'pepe',
-        email: 'user@gmail.com',
+        email: 'admin@gmail.com',
         password: hashedPassword,
         avatar: 'default.png',
         role: "user",

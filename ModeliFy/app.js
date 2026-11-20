@@ -41,7 +41,6 @@ app.use(methodOverride("_method"));
 //userLogged
 app.use(userLogged);
 
-
 app.use("/",indexRouter);
 app.use("/products", productsRoutes);
 app.use("/users", usersRoutes);
@@ -63,8 +62,6 @@ app.get('/admin', async(req,res)=>{
 app.use(function(req,res){
     res.status(404).render('not-found.ejs', {title:'VISTA NO ENCONTRADA'})
 });
-
-
 
 
 app.listen(port, async()=>console.log(

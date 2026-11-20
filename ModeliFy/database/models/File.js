@@ -20,7 +20,7 @@ module.exports = (sequelize, DataTypes)=> {
 
     File.associate = (model)=>{
         File.hasMany(model.Product,{
-            as: "users",
+            as: "products",
             foreignKey: "file_id"
         })
     };

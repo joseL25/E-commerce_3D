@@ -22,8 +22,7 @@ module.exports = (sequelize, DataTypes)=> {
             type: DataTypes.STRING
         },
         role:{
-            type: DataTypes.BOOLEAN,
-            DefaultValue: 0
+            type: DataTypes.STRING
         }
     }
 
